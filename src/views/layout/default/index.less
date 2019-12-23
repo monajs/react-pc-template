@@ -1,0 +1,30 @@
+@import "./_theme";
+
+.page-wrap {
+  min-height: 100vh;
+  min-width: @page-min-width;
+  .page-wrap-aside {
+    background-color: @page-aside-bg;
+    z-index: 10;
+  }
+  .module-logo {
+    width: 100%;
+    height: @page-header-height;
+    background-color: @page-logo-bg;
+    font-size: @page-logo-font-size;
+    color: #fff;
+    .inner {
+      width: @page-aside-width;
+    }
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .page-wrap-header {
+    height: @page-header-height;
+    background-color: @page-header-bg;
+    padding-left: 0;
+    z-index: 10;
+  }
+}

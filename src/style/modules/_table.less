@@ -1,0 +1,50 @@
+.table-title {
+  color: #555;
+}
+
+@table-border: #eee;
+@table-head-bg: #fafafa;
+@table-td-border: 1px solid #e5eaf1;
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  font-size: 13px;
+  table-layout: fixed;
+  thead {
+    border-bottom: 1px solid #ececee;
+  }
+  th {
+    padding: 20px 0 15px;
+    background: @table-head-bg;
+  }
+  tbody {
+    tr {
+      &:hover {
+        background-color: #e6f7ff;
+      }
+    }
+  }
+  td {
+    border-bottom: @table-td-border;
+    padding: 20px 0 15px;
+    vertical-align: top;
+  }
+  tr {
+    &:last-child {
+      td {
+        border-bottom: 0 none;
+      }
+    }
+  }
+  &.table-center {
+    th, td {
+      text-align: center;
+    }
+  }
+  &.va-m {
+    td, th {
+      vertical-align: middle;
+    }
+  }
+}

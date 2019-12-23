@@ -1,0 +1,15 @@
+{
+  "common": {},
+  "dev": {
+    "newapi": "dev1"
+  },
+  "sit": {
+    "newapi": "sit"
+  },
+  "pre": {
+    "newapi": "pre"
+  },
+  "production": {
+    "newapi": "production"
+  }
+}
