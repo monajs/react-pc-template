@@ -57,5 +57,3 @@ npm run build
 [stylelint-rules](https://stylelint.io/user-guide/rules/)
 
 [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard/blob/9efccc5bb3e5faf57bf99b36b3bd7c8256b66a09/index.js) extends [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended/blob/master/index.js)
-
-[规则文档翻译](https://github.com/monajs/mona-template-react/blob/master/docs/stylelint.config.md)
